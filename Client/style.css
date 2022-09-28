@@ -1,0 +1,76 @@
+#MainContainer{
+    width: 40%;
+    margin: auto;
+}
+.login-input, .add-input, #LoginBtn, #AddBtn{
+    width: calc(100% - 54px);
+    font-size: 32px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid;
+    margin: 15px;
+}
+.LogInBtnContainer, .AddBtnContainer{
+    width: max-content;
+    margin: auto;
+}
+#LoginBtn, #AddBtn{
+    width: max-content;
+    color: white;
+    background-color: green;
+    margin: auto;
+}
+.add-password-container{
+    border-radius: 15px;
+    border: 2px solid;
+    margin-top: 40px;
+}
+.Card{
+    width: calc(80% - 30px);
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid;
+    margin: 20px 10%;
+    opacity: 1;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+}
+.card-input-container, .card-actions{
+    display: flex;
+}
+.card-input-container p{
+    font-size: 24px;
+    width: 30%;
+}
+.card-input{
+    font-size: 24px;
+    width: 65%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid;
+    margin: 5px 0;
+}
+.card-actions{
+    width: max-content;
+    margin: auto;
+}
+.delete-action-container button, .save-action-container button{
+    font-size: 24px;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    width: max-content;
+    margin: 5px 50px;
+}
+.delete-action-container button{
+    background-color: red;
+}
+.save-action-container button{
+    background-color: green;
+}
+button{
+    cursor: pointer;
+}
